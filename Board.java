@@ -49,7 +49,11 @@ public class Board  {
         }
     }
     
-    
+    //returns true if there are no more plays left
+    public boolean boardFilled(){
+        //TODO: write this
+        return false; 
+    }
 
     // Returns true if move is possible given board state.  
     public boolean possibleMove(Move move) {
